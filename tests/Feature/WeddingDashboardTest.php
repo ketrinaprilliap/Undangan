@@ -88,6 +88,7 @@ class WeddingDashboardTest extends TestCase
             ->assertSee('Semoga menjadi keluarga yang bahagia.')
             ->assertSee('Ringkasan kehadiran')
             ->assertSee('Ucapan dan doa terbaru')
+            ->assertSee('--cols-lg: repeat(1, minmax(0, 1fr))', false)
             ->assertSee('aria-label="Data Mempelai: 1"', false)
             ->assertSee('aria-label="Acara: 1"', false)
             ->assertSee('aria-label="Galeri Foto: 2"', false)
